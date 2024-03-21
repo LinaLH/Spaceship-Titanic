@@ -1,0 +1,21 @@
+svm de base: 0.7901
+
+hyper-parametre===============
+
+randomsearch: 0.77
+grid search: 0.7901 => ( C entre 1.0 et 1.9, gamma à 1)
+bayésienne(uniquement sur VSCode): 0.785
+?????
+
+======================================
+
+random forest de base: 0.77
+
+grid search: 0.7918 {'bootstrap': False, 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100}
+	     0.7924 {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+
+=======================================
+
+Adaboost: 0.786
+
+gridsearch
