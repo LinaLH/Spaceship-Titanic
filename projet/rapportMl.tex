@@ -1,0 +1,66 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts} 
+\usepackage{graphics}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{Projet Machine Learning:\\
+Competition Spaceship Titanic}
+\author{Valentin Hesters 20201346 \\
+        Sara Firoud 20235275\\
+        Lina}
+\date{30 Mars 2024}
+
+
+
+\begin{document}
+\maketitle
+\renewcommand*{\contentsname}{Sommaire}
+\tableofcontents
+   
+    \section{Analyses des données}
+    \par
+        Les documents qui nous sont fournis sont:\\
+        "sample\_submission.csv" qui est un 
+        modèle de la forme que doit avoir tous fichiers de soumissions sur kaggle
+        pour cette compétation.\\
+        "train.csv" est la base d'entrainement des données sur lesquels nous 
+        effectuerons nôtre travail d'analyse de données. Elle contient les 
+        valeurs de Transported pour les deux tiers des passagers évalués et nous
+        permettras donc d'entrainer nôtre modèle.\\
+        Enfin, "test.csv" est le fichier sur lesquel nous devons prédire les 
+        valeurs de Transported des passagers du tier restant. Elle nous serviras 
+        à avoir le score final, via la soumission sur kaggle, des modèles testés.\\
+        \par
+        
+
+\end{document}
